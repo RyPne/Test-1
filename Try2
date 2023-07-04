@@ -1,0 +1,45 @@
+of a given string.
+The logo should have '*' characters on the outside, and single letters in the middle.
+For example: "Python" -> "P******n". The length of the logo is determined by how many characters are in the string.
+"""
+
+
+def make_logo(string):
+    return '*' * len(string) + ''.join([string[i] for i in range(len(string))]) + '*' * len(string)
+
+of text
+//			System.out.println("\u001B[30m" + "This is black colour");
+//			System.out.println("\u001B[31m" + "This is red colour");
+//			System.out.println("\u001B[32m" + "This is green colour");
+// 
+//// Write a code which can auto change font size and make background white in colour of text 
+//// Change the font to bold and italic as well as underline it using escape sequences (see below) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+the name
+    //the autogenerate part is in the onchange event of the input field
+
+    //This function will be called whenever there is a change in the value of input field
+    function generateName(){
+        var first = document.getElementById("first").value;
+        var last = document.getElementById("last").value;
+
+        if(first && last){
+            document.getElementById('name').innerHTML=`${first} ${last}`;  //this will display full name in h2 tag with id='name'
+        }else{document.getElementById('name').innerHTML="";}   //if one or both are empty then it should clear the name from h2 tag
+
+    }
